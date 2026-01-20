@@ -1,0 +1,23 @@
+{
+  "name": "opencode-git-branch-plugin",
+  "version": "0.1.0",
+  "description": "OpenCode plugin that associates git branches with sessions and auto-switches branches when switching sessions",
+  "main": "git-branch-session.ts",
+  "type": "module",
+  "keywords": [
+    "opencode",
+    "plugin",
+    "git",
+    "branch",
+    "session"
+  ],
+  "author": "Ryan Vogel",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/R44VC0RP/opencode-git-branch-plugin"
+  },
+  "peerDependencies": {
+    "@opencode-ai/plugin": "*"
+  }
+}
